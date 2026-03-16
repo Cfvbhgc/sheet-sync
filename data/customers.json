@@ -1,0 +1,454 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST-100",
+      "name": "James Rodriguez",
+      "email": "james.rodriguez@example.com",
+      "city": "Chicago",
+      "signup_date": "2024-01-27",
+      "tier": "Platinum",
+      "lifetime_value": 2654.12
+    },
+    {
+      "customer_id": "CUST-101",
+      "name": "Mary White",
+      "email": "mary.white@example.com",
+      "city": "San Diego",
+      "signup_date": "2024-02-02",
+      "tier": "Platinum",
+      "lifetime_value": 3901.18
+    },
+    {
+      "customer_id": "CUST-102",
+      "name": "Robert Taylor",
+      "email": "robert.taylor@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-10-30",
+      "tier": "Platinum",
+      "lifetime_value": 2544.0
+    },
+    {
+      "customer_id": "CUST-103",
+      "name": "Patricia Martin",
+      "email": "patricia.martin@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-01-23",
+      "tier": "Gold",
+      "lifetime_value": 2317.31
+    },
+    {
+      "customer_id": "CUST-104",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "city": "San Diego",
+      "signup_date": "2024-02-01",
+      "tier": "Platinum",
+      "lifetime_value": 2160.05
+    },
+    {
+      "customer_id": "CUST-105",
+      "name": "Jennifer Brown",
+      "email": "jennifer.brown@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-09-08",
+      "tier": "Platinum",
+      "lifetime_value": 413.78
+    },
+    {
+      "customer_id": "CUST-106",
+      "name": "Michael Williams",
+      "email": "michael.williams@example.com",
+      "city": "Austin",
+      "signup_date": "2024-06-13",
+      "tier": "Silver",
+      "lifetime_value": 375.13
+    },
+    {
+      "customer_id": "CUST-107",
+      "name": "Linda Rodriguez",
+      "email": "linda.rodriguez@example.com",
+      "city": "Jacksonville",
+      "signup_date": "2024-11-15",
+      "tier": "Gold",
+      "lifetime_value": 1935.48
+    },
+    {
+      "customer_id": "CUST-108",
+      "name": "David Martin",
+      "email": "david.martin@example.com",
+      "city": "Phoenix",
+      "signup_date": "2024-09-28",
+      "tier": "Platinum",
+      "lifetime_value": 2552.48
+    },
+    {
+      "customer_id": "CUST-109",
+      "name": "Elizabeth Wilson",
+      "email": "elizabeth.wilson@example.com",
+      "city": "Columbus",
+      "signup_date": "2024-02-20",
+      "tier": "Bronze",
+      "lifetime_value": 4271.32
+    },
+    {
+      "customer_id": "CUST-110",
+      "name": "William Lee",
+      "email": "william.lee@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-10-09",
+      "tier": "Silver",
+      "lifetime_value": 2178.85
+    },
+    {
+      "customer_id": "CUST-111",
+      "name": "Barbara Lewis",
+      "email": "barbara.lewis@example.com",
+      "city": "San Antonio",
+      "signup_date": "2024-04-26",
+      "tier": "Gold",
+      "lifetime_value": 4145.73
+    },
+    {
+      "customer_id": "CUST-112",
+      "name": "Richard Gonzalez",
+      "email": "richard.gonzalez@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-07-31",
+      "tier": "Bronze",
+      "lifetime_value": 1597.11
+    },
+    {
+      "customer_id": "CUST-113",
+      "name": "Susan Hernandez",
+      "email": "susan.hernandez@example.com",
+      "city": "Phoenix",
+      "signup_date": "2024-12-06",
+      "tier": "Gold",
+      "lifetime_value": 4770.28
+    },
+    {
+      "customer_id": "CUST-114",
+      "name": "Joseph Perez",
+      "email": "joseph.perez@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-08-30",
+      "tier": "Bronze",
+      "lifetime_value": 4167.27
+    },
+    {
+      "customer_id": "CUST-115",
+      "name": "Jessica Williams",
+      "email": "jessica.williams@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-08-09",
+      "tier": "Gold",
+      "lifetime_value": 4068.26
+    },
+    {
+      "customer_id": "CUST-116",
+      "name": "Thomas Moore",
+      "email": "thomas.moore@example.com",
+      "city": "Austin",
+      "signup_date": "2024-01-31",
+      "tier": "Gold",
+      "lifetime_value": 3366.57
+    },
+    {
+      "customer_id": "CUST-117",
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@example.com",
+      "city": "Charlotte",
+      "signup_date": "2024-06-30",
+      "tier": "Platinum",
+      "lifetime_value": 4347.06
+    },
+    {
+      "customer_id": "CUST-118",
+      "name": "Christopher White",
+      "email": "christopher.white@example.com",
+      "city": "Phoenix",
+      "signup_date": "2024-01-27",
+      "tier": "Gold",
+      "lifetime_value": 1790.65
+    },
+    {
+      "customer_id": "CUST-119",
+      "name": "Karen Jackson",
+      "email": "karen.jackson@example.com",
+      "city": "Houston",
+      "signup_date": "2024-09-16",
+      "tier": "Silver",
+      "lifetime_value": 3300.84
+    },
+    {
+      "customer_id": "CUST-120",
+      "name": "Daniel Davis",
+      "email": "daniel.davis@example.com",
+      "city": "Philadelphia",
+      "signup_date": "2024-02-25",
+      "tier": "Gold",
+      "lifetime_value": 618.68
+    },
+    {
+      "customer_id": "CUST-121",
+      "name": "Lisa Rodriguez",
+      "email": "lisa.rodriguez@example.com",
+      "city": "Houston",
+      "signup_date": "2024-10-20",
+      "tier": "Platinum",
+      "lifetime_value": 4233.52
+    },
+    {
+      "customer_id": "CUST-122",
+      "name": "Matthew Harris",
+      "email": "matthew.harris@example.com",
+      "city": "Austin",
+      "signup_date": "2024-11-14",
+      "tier": "Bronze",
+      "lifetime_value": 3064.52
+    },
+    {
+      "customer_id": "CUST-123",
+      "name": "Nancy Perez",
+      "email": "nancy.perez@example.com",
+      "city": "Phoenix",
+      "signup_date": "2024-12-21",
+      "tier": "Bronze",
+      "lifetime_value": 943.06
+    },
+    {
+      "customer_id": "CUST-124",
+      "name": "Anthony Thompson",
+      "email": "anthony.thompson@example.com",
+      "city": "Indianapolis",
+      "signup_date": "2024-06-07",
+      "tier": "Gold",
+      "lifetime_value": 1787.57
+    },
+    {
+      "customer_id": "CUST-125",
+      "name": "Betty Garcia",
+      "email": "betty.garcia@example.com",
+      "city": "Austin",
+      "signup_date": "2024-03-14",
+      "tier": "Platinum",
+      "lifetime_value": 394.45
+    },
+    {
+      "customer_id": "CUST-126",
+      "name": "Mark White",
+      "email": "mark.white@example.com",
+      "city": "New York",
+      "signup_date": "2024-11-20",
+      "tier": "Bronze",
+      "lifetime_value": 3743.25
+    },
+    {
+      "customer_id": "CUST-127",
+      "name": "Margaret Miller",
+      "email": "margaret.miller@example.com",
+      "city": "San Antonio",
+      "signup_date": "2024-07-11",
+      "tier": "Platinum",
+      "lifetime_value": 1737.44
+    },
+    {
+      "customer_id": "CUST-128",
+      "name": "Donald Lopez",
+      "email": "donald.lopez@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-06-08",
+      "tier": "Gold",
+      "lifetime_value": 3895.34
+    },
+    {
+      "customer_id": "CUST-129",
+      "name": "Sandra Jackson",
+      "email": "sandra.jackson@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-11-01",
+      "tier": "Bronze",
+      "lifetime_value": 820.12
+    },
+    {
+      "customer_id": "CUST-130",
+      "name": "Steven Harris",
+      "email": "steven.harris@example.com",
+      "city": "New York",
+      "signup_date": "2024-11-12",
+      "tier": "Bronze",
+      "lifetime_value": 1396.91
+    },
+    {
+      "customer_id": "CUST-131",
+      "name": "Ashley Perez",
+      "email": "ashley.perez@example.com",
+      "city": "San Diego",
+      "signup_date": "2024-08-05",
+      "tier": "Platinum",
+      "lifetime_value": 2100.21
+    },
+    {
+      "customer_id": "CUST-132",
+      "name": "Paul Miller",
+      "email": "paul.miller@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-09-19",
+      "tier": "Gold",
+      "lifetime_value": 2178.07
+    },
+    {
+      "customer_id": "CUST-133",
+      "name": "Dorothy Martinez",
+      "email": "dorothy.martinez@example.com",
+      "city": "Jacksonville",
+      "signup_date": "2024-12-13",
+      "tier": "Platinum",
+      "lifetime_value": 2658.32
+    },
+    {
+      "customer_id": "CUST-134",
+      "name": "Andrew Martinez",
+      "email": "andrew.martinez@example.com",
+      "city": "Houston",
+      "signup_date": "2024-01-24",
+      "tier": "Platinum",
+      "lifetime_value": 4923.01
+    },
+    {
+      "customer_id": "CUST-135",
+      "name": "Kimberly Johnson",
+      "email": "kimberly.johnson@example.com",
+      "city": "Houston",
+      "signup_date": "2024-01-04",
+      "tier": "Gold",
+      "lifetime_value": 4729.35
+    },
+    {
+      "customer_id": "CUST-136",
+      "name": "Joshua Harris",
+      "email": "joshua.harris@example.com",
+      "city": "Columbus",
+      "signup_date": "2024-03-11",
+      "tier": "Gold",
+      "lifetime_value": 1482.76
+    },
+    {
+      "customer_id": "CUST-137",
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "city": "San Diego",
+      "signup_date": "2024-01-04",
+      "tier": "Platinum",
+      "lifetime_value": 919.69
+    },
+    {
+      "customer_id": "CUST-138",
+      "name": "Kenneth Gonzalez",
+      "email": "kenneth.gonzalez@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-09-29",
+      "tier": "Silver",
+      "lifetime_value": 2526.3
+    },
+    {
+      "customer_id": "CUST-139",
+      "name": "Donna Clark",
+      "email": "donna.clark@example.com",
+      "city": "Columbus",
+      "signup_date": "2024-12-08",
+      "tier": "Gold",
+      "lifetime_value": 406.77
+    },
+    {
+      "customer_id": "CUST-140",
+      "name": "Kevin Ramirez",
+      "email": "kevin.ramirez@example.com",
+      "city": "San Antonio",
+      "signup_date": "2024-01-22",
+      "tier": "Bronze",
+      "lifetime_value": 2325.78
+    },
+    {
+      "customer_id": "CUST-141",
+      "name": "Michelle Williams",
+      "email": "michelle.williams@example.com",
+      "city": "Austin",
+      "signup_date": "2024-06-09",
+      "tier": "Platinum",
+      "lifetime_value": 2888.33
+    },
+    {
+      "customer_id": "CUST-142",
+      "name": "Brian Thompson",
+      "email": "brian.thompson@example.com",
+      "city": "San Antonio",
+      "signup_date": "2024-11-23",
+      "tier": "Gold",
+      "lifetime_value": 620.11
+    },
+    {
+      "customer_id": "CUST-143",
+      "name": "Carol Smith",
+      "email": "carol.smith@example.com",
+      "city": "Chicago",
+      "signup_date": "2024-06-15",
+      "tier": "Platinum",
+      "lifetime_value": 4168.53
+    },
+    {
+      "customer_id": "CUST-144",
+      "name": "George Robinson",
+      "email": "george.robinson@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-07-04",
+      "tier": "Platinum",
+      "lifetime_value": 4230.2
+    },
+    {
+      "customer_id": "CUST-145",
+      "name": "Amanda Davis",
+      "email": "amanda.davis@example.com",
+      "city": "Austin",
+      "signup_date": "2024-08-11",
+      "tier": "Platinum",
+      "lifetime_value": 2643.61
+    },
+    {
+      "customer_id": "CUST-146",
+      "name": "Timothy Gonzalez",
+      "email": "timothy.gonzalez@example.com",
+      "city": "San Francisco",
+      "signup_date": "2024-06-07",
+      "tier": "Gold",
+      "lifetime_value": 1146.78
+    },
+    {
+      "customer_id": "CUST-147",
+      "name": "Melissa Harris",
+      "email": "melissa.harris@example.com",
+      "city": "Los Angeles",
+      "signup_date": "2024-03-27",
+      "tier": "Bronze",
+      "lifetime_value": 2676.49
+    },
+    {
+      "customer_id": "CUST-148",
+      "name": "Ronald Miller",
+      "email": "ronald.miller@example.com",
+      "city": "Philadelphia",
+      "signup_date": "2024-06-27",
+      "tier": "Silver",
+      "lifetime_value": 1219.53
+    },
+    {
+      "customer_id": "CUST-149",
+      "name": "Deborah Jones",
+      "email": "deborah.jones@example.com",
+      "city": "Houston",
+      "signup_date": "2024-05-11",
+      "tier": "Silver",
+      "lifetime_value": 3031.87
+    }
+  ]
+}

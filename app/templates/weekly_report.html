@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Weekly Report - SheetSync{% endblock %}
+
+{% block header_title %}Weekly Sales Report{% endblock %}
+{% block header_subtitle %}Period: {{ summary.date_range | default('N/A') }}{% endblock %}
+
+{% block content %}
+
+<!-- Summary Stats Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="value">{{ summary.total_revenue | currency }}</div>
+        <div class="label">Total Revenue</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ summary.total_orders | number }}</div>
+        <div class="label">Total Orders</div>
+    </div>
+    <div class="stat-card">
+        <div class="value">{{ summary.avg_order_value | currency }}</div>
+        <div class="label">Avg Order Value</div>
+    </div>
+    <div class="stat-card">
+        <div class="value {% if summary.growth_pct > 0 %}growth-positive{% elif summary.growth_pct < 0 %}growth-negative{% endif %}">
+            {% if summary.growth_pct > 0 %}+{% endif %}{{ summary.growth_pct }}%
+        </div>
+        <div class="label">Growth</div>
+    </div>
+</div>
+
+<!-- Weekly Breakdown -->
+<h2>Weekly Breakdown</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Week</th>
+            <th>Revenue</th>
+            <th>Orders</th>
+            <th>Avg Value</th>
+            {% if weekly_data and weekly_data[0].total_units is defined %}
+            <th>Units</th>
+            {% endif %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in weekly_data %}
+        <tr>
+            <td>{{ row.week }}</td>
+            <td>{{ row.total_revenue | currency }}</td>
+            <td>{{ row.total_orders }}</td>
+            <td>{{ row.avg_order_value | currency }}</td>
+            {% if row.total_units is defined %}
+            <td>{{ row.total_units | number }}</td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!-- Top Products -->
+{% if top_products %}
+<h2>Top Products</h2>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:center; width:40px;">#</th>
+            <th>Product</th>
+            <th>Revenue</th>
+            <th>Orders</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for p in top_products %}
+        <tr>
+            <td style="text-align:center;">{{ loop.index }}</td>
+            <td>{{ p.product }}</td>
+            <td>{{ p.total_revenue | currency }}</td>
+            <td>{{ p.num_orders }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% endblock %}

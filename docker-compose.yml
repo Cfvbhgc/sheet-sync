@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  sheetsync:
+    build: .
+    container_name: sheetsync
+    volumes:
+      - ./output:/app/output
+    environment:
+      - OUTPUT_DIR=/app/output
+      - SMTP_HOST=smtp.example.com
+      - SMTP_PORT=587
+    command: >
+      python main.py
+      --source data/sales_2024.csv
+      --report monthly
+      --format pdf
+      --output /app/output
